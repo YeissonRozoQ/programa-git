@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(197, 199, 204);
+
+}
+
+.title{
+    text-align: center;
+    color: rgb(236, 236, 241);
+    background-color: rgb(14, 2, 2);
+
+    
+   
+   
+}
+
+.caja1{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+}
+.caja2{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(30, 15, 233);
+}
+.caja3{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+}
+.contenedor div{
+   
+    float: left;
+}
+
+
+.primario{
+    margin: 0.5rem;
+    background-color: rgb(197, 199, 204);
+    width: 40%;
+    height:30rem ;
+}
+
+.secundario{
+    padding: 4rem;
+    margin: 0.5rem;
+    background-color: rgb(197, 199, 204);
+    width: 55%;
+    height: 30rem;
+}
+
+
+
+.usuario{
+    
+    margin: 4rem;
+}
+
+
+.contraseña{
+    margin: 3.4rem;
+}
+
+#inputs{
+    display: inline-block;
+    width: 35%;
+    font-size: 1.5rem;
+    border-color: brown;
+    border-radius: 0.rem;
+    text-align: center;
+    color: rgb(1, 27, 1);
+    box-shadow: 0.01rem 0.1rem 2rem darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#labels{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(8, 8, 131);
+    border-bottom: solid 0.02rem rgb(15, 3, 48) ;
+}
+.ingresar{
+    margin-top: 4rem;
+    
+    border-radius: 0.2rem;
+    background-color: blue;
+    color: beige;
+    width: 8rem;
+    font-size: 1rem;
+
+   }
+
+img{
+    width:60%;
+    height: 50%;
+       margin-top: 8rem;
+    margin-left: 8rem;
+    border-radius: 2rem ;
+
+    
+    }
+img:hover {
+  transform: scale(1.1);
+}
+   
+footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
